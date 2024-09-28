@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap');
 
 :root{
-   --secondary:#800000;
-   --primary:#982B1C;
-   --tertiary-color: #F2E8C6;
+   --primary:#800000;
+   --secondary:#982B1C;
+   --tertiary: #F2E8C6;
    --white:#FFF;
    --light-color: #DAD4B5;
    --black:#222;
@@ -21,7 +21,7 @@
 
 *::selection{
    background-color: var(--primary);
-   color:var(--black);
+   color:var(--tertiary);  /*ramon*/
 }
 
 html{
@@ -41,7 +41,7 @@ html{
 }
 
 ::-webkit-scrollbar-thumb{
-   background-color: var(--primary);
+   background-color: var(--secondary);
    border-radius: 5rem;
 }
 
@@ -105,7 +105,8 @@ section{
 
 .heading p a{
    font-size: 2rem;
-   color:var(--primary);
+   color:var(--tertiary);
+   text-transform: capitalize;
 }
 
 .heading p span{
@@ -137,6 +138,10 @@ section{
    color:var(--black);
 }
 
+.header .flex .navbar {
+   text-transform: capitalize;
+}
+
 .header .flex .navbar a{
    margin:0 1rem;
    font-size: 2rem;
@@ -145,7 +150,7 @@ section{
 
 .header .flex .navbar a:hover{
    color:var(--primary);
-   font-size: 2.1rem;   /*ramon*/
+   font-size: 2.rem;   /*ramon*/
 }
 
 .header .flex .icons > *{
@@ -268,7 +273,7 @@ section{
 }
 
 .category .box-container .box:hover{
-   background-color: var(--black);
+   background-color: var(--secondary);
 }
 
 .category .box-container .box:hover img{

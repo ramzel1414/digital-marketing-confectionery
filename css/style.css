@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap');
 
 :root{
-   --primary:#800000;
-   --secondary:#982B1C;
+   /* --primary:#982B1C; */
+   /* --primary:#800000; */
+   --primary:#1b1b2b;
+   --secondary:#1b1b2b;
    --tertiary: #F2E8C6;
    --white:#FFF;
-   --light-color: #DAD4B5;
+   --light-color: #46443a;
    --black:#3B3030;
    --border:.2rem solid var(--black);
 }
@@ -878,6 +880,9 @@ section{
    width: 35rem;
 }
 
+.custom-swiper-height {
+   height: 80vh;
+}
 
 
 
@@ -921,6 +926,10 @@ section{
       margin:2rem;
    }
 
+   .custom-swiper-height {
+      height: 100vh;
+   }
+   
 }
 
 @media (max-width:450px){
@@ -942,3 +951,4 @@ section{
    }
 
 }
+

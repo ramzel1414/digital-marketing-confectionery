@@ -17,7 +17,7 @@
   <!-- header section start -->
   <header class="header">
     <section class="flex">
-      <a href="home.html" class="logo html">Sweets & Treets</a>
+      <a href="home.html" class="logo html">Sweets & Treats</a>
       
       <nav class="navbar">
         <a href="home.html">Home</a>
@@ -28,7 +28,6 @@
       </nav>
 
       <div class="icons">
-        <a href="search.html"><i class="fas fa-search"></i>></a>
         <a href="cart.html"><i class="fas fa-shopping-cart"></i><span>(3)</span></a>
         <div id="user-btn" class="fas fa-user"></div>
         <div id="menu-btn" class="fas fa-bars"></div>
@@ -37,7 +36,7 @@
   </header>
   <section class="home">
 
-    <div class="swiper home-slider">
+    <div class="swiper home-slider custom-swiper-height">
  
        <div class="swiper-wrapper">
  
@@ -45,7 +44,7 @@
              <div class="content">
                 <span>order online</span>
                 <h3>mars candy</h3>
-                <a href="menu.html" class="btn">see more</a>
+                <a href="menu.html" class="btn" style="background-color:#800000;">see more</a>
              </div>
              <div class="image">
                 <img src="images/logo-ramon.png" alt="">
@@ -56,10 +55,10 @@
              <div class="content">
                 <span>order online</span>
                 <h3>choco balls</h3>
-                <a href="menu.html" class="btn">see more</a>
+                <a href="menu.html" class="btn" style="background-color:#3f230c;">see more</a>
              </div>
              <div class="image">
-                <img src="images/logo-brigitte.png" alt="">
+                <img src="images/logo-brigitte-ps.png" alt="">
              </div>
           </div>
  
@@ -67,10 +66,10 @@
              <div class="content">
                 <span>order online</span>
                 <h3>gummy worms</h3>
-                <a href="menu.html" class="btn">see more</a>
+                <a href="menu.html" class="btn" style="background-color:#1b1b2b;">see more</a>
              </div>
              <div class="image">
-                <img src="images/logo-clint.png" alt="">
+                <img src="images/logo-clint-ps.png" alt="">
              </div>
           </div>
  
@@ -82,137 +81,10 @@
  
  </section>
  
- <section class="category">
- 
-    <h1 class="title">food category</h1>
- 
-    <div class="box-container">
- 
-       <a href="category.html" class="box">
-          <img src="images/cat-1.png" alt="">
-          <h3>fast food</h3>
-       </a>
-    
-       <a href="category.html" class="box">
-          <img src="images/cat-2.png" alt="">
-          <h3>main dishes</h3>
-       </a>
-    
-       <a href="category.html" class="box">
-          <img src="images/cat-3.png" alt="">
-          <h3>drinks</h3>
-       </a>
-    
-       <a href="category.html" class="box">
-          <img src="images/cat-4.png" alt="">
-          <h3>desserts</h3>
-       </a>
- 
-    </div>
- 
- </section>
- 
- <section class="products">
- 
-    <h1 class="title">latest dishes</h1>
- 
-    <div class="box-container">
- 
-       <form accept="" method="post" class="box">
-          <a href="quick_view.html" class="fas fa-eye"></a>
-          <button class="fas fa-shopping-cart" type="submit" name="add_to_cart"></button>
-          <img src="uploaded_img/pizza-1.png" alt="">
-          <a href="category.html" class="cat">fast food</a>
-          <div class="name">delicious pizza 01</div>
-          <div class="flex">
-             <div class="price"><span>$</span>3<span>/-</span></div>
-             <input type="number" name="qty" class="qty" min="1" max="99" value="1" onkeypress="if(this.value.length == 2) return false;">
-          </div>
-       </form>
- 
-       <form accept="" method="post" class="box">
-          <a href="quick_view.html" class="fas fa-eye"></a>
-          <button class="fas fa-shopping-cart" type="submit" name="add_to_cart"></button>
-          <img src="uploaded_img/dish-1.png" alt="">
-          <a href="category.html" class="cat">dishes</a>
-          <div class="name">main dish 01</div>
-          <div class="flex">
-             <div class="price"><span>$</span>3<span>/-</span></div>
-             <input type="number" name="qty" class="qty" min="1" max="99" value="1" onkeypress="if(this.value.length == 2) return false;">
-          </div>
-       </form>
- 
-       <form accept="" method="post" class="box">
-          <a href="quick_view.html" class="fas fa-eye"></a>
-          <button class="fas fa-shopping-cart" type="submit" name="add_to_cart"></button>
-          <img src="uploaded_img/burger-1.png" alt="">
-          <a href="category.html" class="cat">fast food</a>
-          <div class="name">chezzy hamburger 01</div>
-          <div class="flex">
-             <div class="price"><span>$</span>3<span>/-</span></div>
-             <input type="number" name="qty" class="qty" min="1" max="99" value="1" onkeypress="if(this.value.length == 2) return false;">
-          </div>
-       </form>
- 
-       <form accept="" method="post" class="box">
-          <a href="quick_view.html" class="fas fa-eye"></a>
-          <button class="fas fa-shopping-cart" type="submit" name="add_to_cart"></button>
-          <img src="uploaded_img/dessert-1.png" alt="">
-          <a href="category.html" class="cat">dessert</a>
-          <div class="name">delicious dessert 01</div>
-          <div class="flex">
-             <div class="price"><span>$</span>3<span>/-</span></div>
-             <input type="number" name="qty" class="qty" min="1" max="99" value="1" onkeypress="if(this.value.length == 2) return false;">
-          </div>
-       </form>
- 
-       <form accept="" method="post" class="box">
-          <a href="quick_view.html" class="fas fa-eye"></a>
-          <button class="fas fa-shopping-cart" type="submit" name="add_to_cart"></button>
-          <img src="uploaded_img/drink-1.png" alt="">
-          <a href="category.html" class="cat">drinks</a>
-          <div class="name">fresh drink 01</div>
-          <div class="flex">
-             <div class="price"><span>$</span>3<span>/-</span></div>
-             <input type="number" name="qty" class="qty" min="1" max="99" value="1" onkeypress="if(this.value.length == 2) return false;">
-          </div>
-       </form>
- 
-       <form accept="" method="post" class="box">
-          <a href="quick_view.html" class="fas fa-eye"></a>
-          <button class="fas fa-shopping-cart" type="submit" name="add_to_cart"></button>
-          <img src="uploaded_img/dish-2.png" alt="">
-          <a href="category.html" class="cat">dishes</a>
-          <div class="name">main dish 02</div>
-          <div class="flex">
-             <div class="price"><span>$</span>3<span>/-</span></div>
-             <input type="number" name="qty" class="qty" min="1" max="99" value="1" onkeypress="if(this.value.length == 2) return false;">
-          </div>
-       </form>
- 
-    </div>
- 
-    <div class="more-btn">
-       <a href="menu.html" class="btn">veiw all</a>
-    </div>
- 
- </section>
+
  
  
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
+
  
  
  
@@ -224,20 +96,20 @@
        <div class="box">
           <img src="images/email-icon.png" alt="">
           <h3>our email</h3>
-          <a href="mailto:shaikhanas@gmail.com">shaikhanas@gmail.com</a>
-          <a href="mailto:anasbhai@gmail.com">anasbhai@gmail.com</a>
+          <a href="mailto:shaikhanas@gmail.com">student@gmail.com</a>
+          <a href="mailto:anasbhai@gmail.com">buksu@gmail.com</a>
        </div>
  
        <div class="box">
           <img src="images/clock-icon.png" alt="">
-          <h3>opening hours</h3>
-          <p>00:07am to 00:10pm </p>
+          <h3>available hours</h3>
+          <p>anytime</p>
        </div>
  
        <div class="box">
           <img src="images/map-icon.png" alt="">
           <h3>our address</h3>
-          <a href="https://www.google.com/maps">mumbai, india - 400104</a>
+          <a href="https://www.google.com/maps">malaybalay, bukidnon - 8000</a>
        </div>
  
        <div class="box">

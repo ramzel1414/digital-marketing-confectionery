@@ -10,6 +10,7 @@
    --light-color: #46443a;
    --black:#3B3030;
    --border:.2rem solid var(--black);
+   --raven: #050301;
 }
 
 *{
@@ -89,7 +90,7 @@ section{
 }
 
 .heading{
-   background-color: var(--black);
+   background-color: var(--raven); /*ramon*/
    text-align: center;
    display: flex;
    align-items: center;
@@ -710,13 +711,14 @@ section{
 }
 
 .checkout form .cart-items{
-   background-color: var(--black);
-   padding:2rem;
+   /* background-color: var(--raven); */
+   color: var(--black);
+   /* padding:2rem; */
 }
 
 .checkout form .cart-items h3{
    font-size: 2.5rem;
-   color:var(--white);
+   color: var(--black);
    text-transform: capitalize;
    margin-bottom: 2rem;
 }
@@ -732,7 +734,8 @@ section{
 }
 
 .checkout form .cart-items p .name{
-   color:var(--white);
+   /* color:var(--white); */
+   color: var(--black);
 }
 
 .checkout form .cart-items p .price{
@@ -741,7 +744,8 @@ section{
 
 .checkout form .cart-items .grand-total{
    background-color:var(--white);
-   padding:1rem;
+   font-weight: 700;
+   /* padding:1rem; */
 }
 
 .checkout form .cart-items .grand-total .name{
@@ -786,7 +790,8 @@ section{
 .checkout form .order-btn{
    margin-top: 2rem;
    width: 100%;
-   background-color: var(--black);
+   /* background-color: var(--black); */
+   background-color: var(--primary);
    color:var(--white);
 }
 
